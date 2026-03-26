@@ -2,6 +2,8 @@ from prime import is_probable_prime
 from math import sqrt
 import random
 
+# Ermal ZEQO 21315866
+# Mohamed Nassim FERROUKH 21308499
 
 #Exercice 1
 #Q1

@@ -1,7 +1,7 @@
 #+TITLE: Arithmetique-DLP
 #+AUTHOR: ZEQO Ermal — 21315866
 
-* Présentation
+*** Présentation
 
 Ce projet a été réalisé dans le cadre du TME *Arithmétique et Logarithme Discret* de l'UE *Introduction à la Cryptologie (LU3IN024)* à Sorbonne Université.
 

@@ -9,7 +9,7 @@ L'objectif est d'implémenter en Python les principaux algorithmes d'arithmétiq
 
 Le projet aboutit à une implémentation complète de l'algorithme *Baby-Step Giant-Step (BSGS)* permettant de résoudre le problème du logarithme discret (*Discrete Logarithm Problem - DLP*) dans un groupe cyclique fini.
 
-Le développement suit une approche progressive :
+**Le développement suit une approche progressive :
 
 * implémentation des outils fondamentaux d'arithmétique modulaire ;
 * construction de groupes cryptographiques ;
@@ -18,7 +18,7 @@ Le développement suit une approche progressive :
 
 - Objectifs du projet
 
-Le projet vise à implémenter :
+**Le projet vise à implémenter :
 
 * l'algorithme d'Euclide étendu ;
 * les coefficients de Bézout ;
@@ -33,7 +33,7 @@ Le projet vise à implémenter :
 
 À la fin du projet, le programme permet de construire un groupe adapté à la cryptographie puis de résoudre un problème de logarithme discret.
 
-* Concepts étudiés
+*** Concepts étudiés
 
 Les notions abordées sont :
 
@@ -78,13 +78,9 @@ Les différentes étapes sont :
 
 Chaque étape repose sur les précédentes.
 
-* Exercices réalisés
+*** Exercice 1 — Arithmétique de base
 
-** Exercice 1 — Arithmétique de base
-
-*** But
-
-Implémentation des fonctions fondamentales utilisées pour les calculs cryptographiques.
+But:Implémentation des fonctions fondamentales utilisées pour les calculs cryptographiques.
 
 *** Fonctions
 
@@ -97,9 +93,7 @@ Ces fonctions constituent la base de tous les calculs réalisés dans le projet.
 
 ** Exercice 2 — Logarithme discret
 
-*** But
-
-Manipulation du groupe multiplicatif modulo un nombre premier et préparation de l'algorithme de résolution du logarithme discret.
+But: Manipulation du groupe multiplicatif modulo un nombre premier et préparation de l'algorithme de résolution du logarithme discret.
 
 *** Fonctions
 
@@ -110,9 +104,7 @@ Manipulation du groupe multiplicatif modulo un nombre premier et préparation de
 
 ** Exercice 3 — Génération de nombres premiers sûrs
 
-*** But
-
-Génération de paramètres cryptographiques adaptés aux groupes utilisés pour le logarithme discret.
+But: Génération de paramètres cryptographiques adaptés aux groupes utilisés pour le logarithme discret.
 
 Un nombre premier sûr est de la forme :
 
@@ -130,9 +122,7 @@ où q est également premier.
 
 ** Exercice 4 — Baby-Step Giant-Step
 
-*** But
-
-Implémentation de l'algorithme de Shanks permettant de résoudre efficacement le problème du logarithme discret.
+But: Implémentation de l'algorithme de Shanks permettant de résoudre efficacement le problème du logarithme discret.
 
 Principe :
 

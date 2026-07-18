@@ -2,34 +2,22 @@
 #+AUTHOR: ZEQO Ermal — 21315866
 
 *** Présentation
+Ce projet porte sur l’implémentation en Python de plusieurs algorithmes fondamentaux liés à l’arithmétique modulaire et à la théorie des nombres appliquées à la cryptographie moderne.
 
-Ce projet a été réalisé dans le cadre du TME *Arithmétique et Logarithme Discret* de l'UE *Introduction à la Cryptologie (LU3IN024)* à Sorbonne Université.
+L’objectif est de développer progressivement les outils mathématiques nécessaires aux calculs cryptographiques, en commençant par les opérations de base comme l’algorithme d’Euclide étendu, le calcul des coefficients de Bézout, les inverses modulaires et l’indicatrice d’Euler φ(n).
 
-L'objectif est d'implémenter en Python les principaux algorithmes d'arithmétique modulaire et de théorie des nombres utilisés en cryptographie moderne.
+Le projet met également en œuvre des techniques d’arithmétique efficace telles que l’exponentiation modulaire rapide, la factorisation d’entiers et le calcul de l’ordre d’un élément dans un groupe cyclique. Ces différentes briques permettent ensuite de construire des groupes adaptés aux applications cryptographiques, de rechercher des générateurs, de générer des nombres premiers sûrs et d’étudier le problème du logarithme discret.
 
-Le projet aboutit à une implémentation complète de l'algorithme *Baby-Step Giant-Step (BSGS)* permettant de résoudre le problème du logarithme discret (*Discrete Logarithm Problem - DLP*) dans un groupe cyclique fini.
+La dernière partie du projet aboutit à l’implémentation de l’algorithme Baby-Step Giant-Step (BSGS), une méthode permettant de résoudre efficacement le problème du logarithme discret (Discrete Logarithm Problem - DLP) dans un groupe cyclique fini.
 
-**Le développement suit une approche progressive :
+*** Le développement suit une approche progressive :
 
-* implémentation des outils fondamentaux d'arithmétique modulaire ;
-* construction de groupes cryptographiques ;
-* génération de paramètres adaptés ;
-* résolution du logarithme discret avec un algorithme efficace.
+- implémentation des outils fondamentaux d'arithmétique modulaire ;
+- construction de groupes cryptographiques ;
+- génération de paramètres adaptés ;
+- résolution du logarithme discret avec un algorithme efficace.
 
-- Objectifs du projet
 
-**Le projet vise à implémenter :
-
-* l'algorithme d'Euclide étendu ;
-* les coefficients de Bézout ;
-* les inverses modulaires ;
-* l'indicatrice d'Euler φ(n) ;
-* l'exponentiation modulaire rapide ;
-* la factorisation d'un entier ;
-* le calcul de l'ordre d'un élément ;
-* la recherche d'un générateur d'un groupe cyclique ;
-* la génération de nombres premiers sûrs ;
-* l'algorithme Baby-Step Giant-Step pour résoudre le logarithme discret.
 
 À la fin du projet, le programme permet de construire un groupe adapté à la cryptographie puis de résoudre un problème de logarithme discret.
 
@@ -37,37 +25,35 @@ Le projet aboutit à une implémentation complète de l'algorithme *Baby-Step Gi
 
 Les notions abordées sont :
 
-* arithmétique modulaire ;
-* PGCD ;
-* relation de Bézout ;
-* inverse modulaire ;
-* indicatrice d'Euler ;
-* exponentiation rapide ;
-* groupes cycliques ;
-* générateurs ;
-* ordre d'un élément ;
-* factorisation ;
-* nombres premiers sûrs ;
-* problème du logarithme discret ;
-* algorithme Baby-Step Giant-Step.
+- arithmétique modulaire ;
+- PGCD ;
+- relation de Bézout ;
+- inverse modulaire ;
+- indicatrice d'Euler ;
+- exponentiation rapide ;
+- groupes cycliques ;
+- générateurs ;
+- ordre d'un élément ;
+- factorisation ;
+- nombres premiers sûrs ;
+- problème du logarithme discret ;
+- algorithme Baby-Step Giant-Step.
 
 - Fonctionnalités principales
 
 Le projet contient des fonctions permettant de :
 
-* calculer un PGCD et les coefficients de Bézout ;
-* déterminer un inverse modulo n ;
-* calculer φ(n) ;
-* effectuer une exponentiation modulaire rapide ;
-* factoriser p-1 ;
-* calculer l'ordre d'un élément ;
-* rechercher un générateur du groupe multiplicatif modulo p ;
-* générer un nombre premier sûr ;
-* résoudre un logarithme discret avec Baby-Step Giant-Step.
+- calculer un PGCD et les coefficients de Bézout ;
+- déterminer un inverse modulo n ;
+- calculer φ(n) ;
+- effectuer une exponentiation modulaire rapide ;
+- factoriser p-1 ;
+- calculer l'ordre d'un élément ;
+- rechercher un générateur du groupe multiplicatif modulo p ;
+- générer un nombre premier sûr ;
+- résoudre un logarithme discret avec Baby-Step Giant-Step.
 
 - Organisation du travail
-
-Le TME est construit de manière incrémentale.
 
 Les différentes étapes sont :
 
@@ -84,10 +70,10 @@ But:Implémentation des fonctions fondamentales utilisées pour les calculs cryp
 
 *** Fonctions
 
-* calcul du PGCD ;
-* calcul des coefficients de Bézout ;
-* calcul des inverses modulaires ;
-* calcul de l'indicatrice d'Euler.
+- calcul du PGCD ;
+- calcul des coefficients de Bézout ;
+- calcul des inverses modulaires ;
+- calcul de l'indicatrice d'Euler.
 
 Ces fonctions constituent la base de tous les calculs réalisés dans le projet.
 
@@ -95,12 +81,12 @@ Ces fonctions constituent la base de tous les calculs réalisés dans le projet.
 
 But: Manipulation du groupe multiplicatif modulo un nombre premier et préparation de l'algorithme de résolution du logarithme discret.
 
-*** Fonctions
+ Fonctions
 
-* exponentiation modulaire rapide ;
-* factorisation de p-1 ;
-* calcul de l'ordre d'un élément ;
-* recherche d'un générateur du groupe.
+- exponentiation modulaire rapide ;
+- factorisation de p-1 ;
+- calcul de l'ordre d'un élément ;
+- recherche d'un générateur du groupe.
 
 ** Exercice 3 — Génération de nombres premiers sûrs
 
@@ -116,9 +102,9 @@ où q est également premier.
 
 *** Fonctions
 
-* génération d'un nombre premier ;
-* test de primalité ;
-* génération d'un nombre premier sûr d'une taille donnée.
+- génération d'un nombre premier ;
+- test de primalité ;
+- génération d'un nombre premier sûr d'une taille donnée.
 
 ** Exercice 4 — Baby-Step Giant-Step
 
@@ -137,10 +123,10 @@ La complexité passe d'une recherche exhaustive en O(n) à O(√n).
 
 Le projet est validé avec les fichiers de tests fournis :
 
-* =test-1-ex1-arit.py=
-* =test-2-ex2-dlog.py=
-* =test-3-ex3-primes.py=
-* =test-4-ex4-bsgs.py=
+**** =test-1-ex1-arit.py=
+**** =test-2-ex2-dlog.py=
+**** =test-3-ex3-primes.py=
+**** =test-4-ex4-bsgs.py=
 
 Chaque test vérifie une partie spécifique du projet.
 
@@ -168,13 +154,12 @@ Chaque test vérifie une partie spécifique du projet.
 * Compétences développées
 
 Ce projet a permis de développer les compétences suivantes :
-
-* programmation algorithmique en Python ;
-* implémentation d'algorithmes mathématiques ;
-* compréhension de la cryptographie asymétrique ;
-* manipulation des groupes cycliques ;
-* optimisation d'algorithmes ;
-* résolution du problème du logarithme discret.
+1. programmation algorithmique en Python ;
+2. implémentation d'algorithmes mathématiques ;
+3. compréhension de la cryptographie asymétrique ;
+4. manipulation des groupes cycliques ;
+5. optimisation d'algorithmes ;
+6. résolution du problème du logarithme discret.
 
 - Contexte académique
 
